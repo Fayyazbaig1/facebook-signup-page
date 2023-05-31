@@ -1,0 +1,213 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+*{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0f2f5;
+    position: relative;
+}
+
+.facebook-logo,img{
+    
+    height: 100px;
+    position: relative;
+    left: 495px;
+    
+}
+
+.parent{
+    border-radius: 5px;
+    box-shadow: 0px 1px 17px -1px rgba(0,0,0,0.61);
+    background-color: white;
+    margin: 10px 435px ;
+    
+    width:425px ;
+    height: 550px;
+}
+
+.heading{
+    padding-top: 10px;
+    text-align: center;
+}
+.short{
+    color:#606770;
+    margin-bottom: 7px;
+}
+.line{
+    width: 100%;
+    color:lightgrey;
+}
+
+
+
+.name{
+    
+   margin: 5px 15px 5px 15px;
+   padding: 10px 15px 5px 10px;
+   border-radius: 10px 10px 10px 10px;
+   display: flex;
+   justify-content: space-around;
+   
+   
+   
+ 
+}
+input::placeholder{
+    margin:5px 10px 5px 10px;
+    padding: 5px 10px 5px 10px;
+    
+
+}
+
+.name input{
+    width: 180px;
+    height: 35px;
+    font-size: 18px;
+}
+
+.email input{
+
+    width:380px;
+    height: 35px;
+    margin:5px 20px 5px 20px ;
+    padding: 5px 10px 5px 10px;
+    font-size: 18px;
+  
+}
+
+input{
+    border: 1px solid #bdbdbd;
+    border-radius: 5px; 
+}
+
+input:focus {
+    background-color:#BBB6AF;
+    border: 3px solid #848484;
+} 
+
+.password input{
+    width:380px;
+    height: 35px;
+    margin:5px 20px 5px 20px ;
+    padding: 5px 10px 5px 10px;
+    font-size: 18px;
+}
+
+.para{
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #606770;
+    margin:5px 5px 5px 20px ;
+}
+
+.checkbox select{
+    margin:5px 10px 5px 18px ;
+    width: 110px;
+    height: 32px;
+    border: 1px solid #BBB6AF;
+    border-radius: 5px;
+    text-transform: capitalize;
+    
+}
+
+.para2{
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #606770;
+    margin:5px 5px 10px 20px ;
+
+}
+
+.radio label{
+    font-size: 15px;
+    border: 1px solid #BBB6AF;
+    
+    text-transform: capitalize;
+   
+    margin-top: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    margin-left: 18px;
+    border-radius: 5px;
+
+    padding: 5px 28px 10px 5px;
+
+}
+
+.radio input{
+    width: 38px;
+}
+
+.paragraph{
+    margin: 18px 5px 10px 16px;
+    text-align: justify;
+    font-size: 12px;
+    text-transform: capitalize;
+    word-spacing: .5px;
+    line-height: 1em;
+    color: #777;
+}
+
+.paragraph a{
+    text-decoration: none;
+    color:#385898;
+    cursor: pointer;
+}
+
+ a:hover{
+text-decoration-line: underline;
+ }
+
+ .signup ,button{
+    margin-top: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bolder;
+    color:#fff;
+    border: #00a400;
+    background-color:#00a400 ;
+    width: 45%;
+    height: 40px;
+    border-radius: 5px;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 50%);
+    cursor: pointer;
+    letter-spacing: .1em;
+   position: relative;
+   left: 110px;
+ }
+
+ .signup ,button:hover{
+  
+    color: rgba(60, 73, 103, 0.07);
+ }
+  
+.acct{
+    margin: 15px 10px 10px -8px;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+
+.acct,a,:hover{
+    
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
